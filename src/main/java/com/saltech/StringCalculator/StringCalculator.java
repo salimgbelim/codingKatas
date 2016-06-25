@@ -1,4 +1,4 @@
-package com.saltech;
+package com.saltech.StringCalculator;
 
 public class StringCalculator {
 

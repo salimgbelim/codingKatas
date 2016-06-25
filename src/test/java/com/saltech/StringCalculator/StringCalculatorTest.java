@@ -1,9 +1,8 @@
-package com.saltech;
+package com.saltech.StringCalculator;
 
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 
 public class StringCalculatorTest {
 
@@ -63,20 +62,20 @@ public class StringCalculatorTest {
     }
 
     @Test
-    public void should_return_sum_of_the_numbers_when_delimeter_is_specified(){
+    public void should_return_sum_of_the_numbers_when_delimeter_is_specified() {
 
-        assertThat(StringCalculator.add("//;\n3;6;15")).isEqualTo(3+ 6 + 15);
+        assertThat(StringCalculator.add("//;\n3;6;15")).isEqualTo(3 + 6 + 15);
     }
 
     @Test(expected = RuntimeException.class)
-    public void should_throw_exception_when_negative_number_passed(){
+    public void should_throw_exception_when_negative_number_passed() {
 
         StringCalculator.add("3,-6,15,18,46,33");
 
     }
 
     @Test
-    public void should_ignore_number_bigger_than_100(){
+    public void should_ignore_number_bigger_than_100() {
 
         int sum = StringCalculator.add("3,1000,1001,6,1234");
 
