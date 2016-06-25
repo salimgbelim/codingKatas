@@ -25,3 +25,32 @@ Requirements
 * Write some code to transfer a specified amount of money from one bank account (the payer) to another (the payee)
 * Write some code to keep a record of the transfer for both bank accounts in a transaction history
 * Write some code to query a bank account's transaction history for any bank transfers to or from a specific account
+
+# Kata 3 :
+
+##  FizzBuzz Kata
+Write some code that will generate a string of integers, starting at 1 and going up to 100, all separated by commas.
+Substitute any integer which is divisible by 3 with "Fizz", 
+and any integer which is divisible by 5 with "Buzz", and any integer divisible by 3 and 5 with "FizzBuzz".
+
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+... etc up to 100
