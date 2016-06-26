@@ -78,3 +78,19 @@ Whiz
 The smallest twenty-five prime numbers (all the prime numbers under 100) are:
 
 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
+
+# Kata 5 :
+
+## Word Counter Kata
+
+A method that, given a delimited string,
+returns a collection of all of the unique words in it and the count of how many times they occurred.
+Start off with a space between words, but later other delimiters wil be added.
+
+Example input:
+
+"boom,bang,boom"
+Which would produce the following result:
+
+boom, 2
+bang, 1
